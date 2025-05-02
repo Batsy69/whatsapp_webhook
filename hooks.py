@@ -1,1 +1,1 @@
-# Empty for now
+has_route = True
