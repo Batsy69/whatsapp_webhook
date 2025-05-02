@@ -1,2 +1,3 @@
-include README.md
-recursive-include whatsapp_webhook *
+include MANIFEST.in
+include setup.py
+recursive-include whatsapp_webhook *.py
