@@ -1,4 +1,0 @@
-#!/bin/sh
-cd $(dirname "$0")/..  # Move to app root
-yarn
-yarn build
