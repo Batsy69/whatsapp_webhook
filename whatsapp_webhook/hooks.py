@@ -7,4 +7,4 @@ app_description = "Handle WhatsApp webhooks via Meta"
 app_email = "yusufpaloba43@outlook.com"
 app_license = "MIT"
 
-has_route = True
+has_whitelisted_api = True
