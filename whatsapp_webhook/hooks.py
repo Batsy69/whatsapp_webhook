@@ -1,5 +1,3 @@
-# whatsapp_webhook/hooks.py
-
 app_name = "whatsapp_webhook"
 app_title = "Whatsapp Webhook"
 app_publisher = "Yusuf Paloba"
@@ -10,14 +8,17 @@ app_license = "MIT"
 # Optional but useful for APIs
 has_whitelisted_api = True
 
-# Avoid frontend asset build errors
-app_include_js = []
+# Include JS and CSS files for frontend
+app_include_js = [
+    "/assets/whatsapp_webhook/js/whatsapp_webhook.js"  # Include your JS file for the app
+]
 app_include_css = []
-web_include_js = []
-web_include_css = []
 
-# If you are using any fixtures (custom fields, scripts, etc.)
-# fixtures = ["Custom Field", "Client Script", "Server Script"]
+# Web include for pages or website assets
+web_include_js = [
+    "/assets/whatsapp_webhook/js/whatsapp_webhook.js"  # Include your JS for website if needed
+]
+web_include_css = []
 
 # Optional - example webhook route (you can adjust based on your actual route)
 # override_whitelisted_methods = {
