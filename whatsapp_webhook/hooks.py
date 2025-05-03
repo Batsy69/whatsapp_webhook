@@ -10,18 +10,6 @@ app_license = "MIT"
 # Optional but useful for APIs
 has_whitelisted_api = True
 
-# Include JS and CSS files for frontend
-app_include_js = [
-    "/assets/whatsapp_webhook/js/whatsapp_webhook.js"  # Include your JS file for the app
-]
-app_include_css = []
-
-# Web include for pages or website assets
-web_include_js = [
-    "/assets/whatsapp_webhook/js/whatsapp_webhook.js"  # Include your JS for website if needed
-]
-web_include_css = []
-
 # Optional - example webhook route (you can adjust based on your actual route)
 # override_whitelisted_methods = {
 #     "your.route.path": "whatsapp_webhook.api.receive_message"
