@@ -1,3 +1,5 @@
+from . import __version__ as app_version
+
 app_name = "whatsapp_webhook"
 app_title = "Whatsapp Webhook"
 app_publisher = "Yusuf Paloba"
