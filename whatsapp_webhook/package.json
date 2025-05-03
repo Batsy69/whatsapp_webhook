@@ -1,7 +1,14 @@
 {
   "name": "whatsapp_webhook",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
   "scripts": {},
-  "license": "MIT"
+  "license": "MIT",
+  "frappe": {
+    "name": "whatsapp_webhook",
+    "assets": {
+      "js": [
+        "public/js/whatsapp_webhook.js"
+      ]
+    }
+  }
 }
