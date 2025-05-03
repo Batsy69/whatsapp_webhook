@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp_webhook",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {},
+  "frappe": {
+    "build": {
+      "whatsapp_webhook": {
+        "js": [
+          "public/js/whatsapp_webhook.js"
+        ]
+      }
+    }
+  }
+}
