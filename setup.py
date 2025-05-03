@@ -1,13 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='whatsapp_webhook',
+    name='whatsapp_webhook',  # ✅ Must match inner folder and Git repo name
     version='0.0.1',
-    description='Handle WhatsApp webhooks via Meta',
-    author='Yusuf Paloba',
-    author_email='yusufpaloba43@outlook.com',
     packages=find_packages(),
-    zip_safe=False,
     include_package_data=True,
-    install_requires=[]
+    zip_safe=False,
+    install_requires=['frappe'],
 )
