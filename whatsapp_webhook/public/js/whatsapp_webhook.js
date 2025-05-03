@@ -1,8 +1,4 @@
-{
-  "whatsapp_webhook": {
-    "js": [
-      "public/js/whatsapp_webhook.js"
-    ],
-    "css": []
-  }
-}
+// Dummy JS to prevent build errors
+frappe.ready(() => {
+    console.log("WhatsApp Webhook JS loaded.");
+});
